@@ -1,0 +1,18 @@
+.comment-the-quote {
+	border-color: #CDCDCD #CDCDCD #CDCDCD #c4c4c4;
+	border-style: solid;
+	border-width: 1px 1px 1px 10px;
+	margin-bottom: 1em;
+	padding-left: 1em;
+}
+
+blockquote.comment-the-quote:before {
+	content: '';
+}
+
+.comment-the-quote > p, .comment-the-quote p:last-child {margin-bottom: 0.5em !important;}
+.comment-the-quote-cite {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+}
